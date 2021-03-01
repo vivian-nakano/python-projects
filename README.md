@@ -1,2 +1,2 @@
-# phyton-projects
+# python-projects
 Estudos em Python
