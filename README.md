@@ -1,2 +1,2 @@
 # python-projects
-Estudos em Python
+Estudos em Python a partir de diferentes plataformas
