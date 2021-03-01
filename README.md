@@ -1,2 +1,2 @@
 # phyton-projects
-Estudos em Phyton
+Estudos em Python
