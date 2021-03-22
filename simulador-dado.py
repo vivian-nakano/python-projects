@@ -16,4 +16,4 @@ class SimuladorDeDado:
             self.GerarValorDado ()
 
     def GerarValorDado(self):
-        print(random.randint(self.valor_minimo,self.valor_maximo))
+        print(random.randint(self.valor_minimo,self.valor_maximo))''
