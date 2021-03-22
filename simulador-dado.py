@@ -10,4 +10,10 @@ class SimuladorDeDado:
         self.valor_maximo = 6
         self.mensagem = 'Gostaria de gerar um novo valor para o dado?'
 
-    
+    def Iniciar(self):
+        resposta = input (self.mensagem)
+        if resposta == 'sim':
+            self.GerarValorDado ()
+
+    def GerarValorDado(self):
+        print(random.randint(self.valor_minimo,self.valor_maximo))
