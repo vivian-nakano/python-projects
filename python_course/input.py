@@ -1,18 +1,40 @@
-# print("Function that simply print something, some text, some string, variable...")
+#basic concept of prints
+def print_concepts():
 
-# input("Function that print some text and expect something.")
+    print("Function that simply print something, some text, some string, variable...")
 
-# name = input("What's your name?")
-#
-# print("A quantidade de caracteres são: ")
-# (print(len(name)))
+    input("Function that print some text and expect something.")
 
-#Variable
+    name = input("What's your name?")
 
-name = input("What is your name? Input function >> Expect something ")
-length = len(name)
-print(length)
+    print("A quantidade de caracteres são: ")
+    (print(len(name)))
 
+#Basic concept of variable
+def variable():
 
+    name = input("What is your name? Input function >> Expect something ")
+    length = len(name)
+    print(length)
 
+variable()
+
+#Concept
+def inputs():
+
+    a = input("a:")
+    b = input("b:")
+
+    print("a = " + a)
+    print("b = " + b)
+
+##chalenge
+a = input("c:")
+b = input("a:")
+c = input("b:")
+
+print("C = "+a)
+
+inputs()
+variable()
 
