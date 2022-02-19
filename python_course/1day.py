@@ -25,8 +25,6 @@ location = input("city?\n")
 print("you are from " + location)
 print("your band name is: " + name + " " + location)
 
-
-
 #Concept
 def inputs():
 
@@ -45,4 +43,3 @@ print("C = "+a)
 
 inputs()
 variable()
-
