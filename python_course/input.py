@@ -17,7 +17,15 @@ def variable():
     length = len(name)
     print(length)
 
-variable()
+#Final challenge
+print("Welcome to the band name generator.")
+name = input("name?\n")
+print("hello " + name)
+location = input("city?\n")
+print("you are from " + location)
+print("your band name is: " + name + " " + location)
+
+
 
 #Concept
 def inputs():
