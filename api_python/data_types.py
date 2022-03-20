@@ -1,5 +1,7 @@
 from collections import OrderedDict
 
+import json
+
 def orderdict():
 
 	d = OrderedDict()
@@ -8,8 +10,6 @@ def orderdict():
 	d['mynewkey'] = 'mynewvalue'
 
 	print(d)
-
-orderdict()
 
 def organizar_crescente_desc():
 
@@ -52,7 +52,12 @@ def insert_quote_in_dict():
 		"branch": "develop"
 	}
 
-	var = data.get('message_size')
-	print(var)
+	print(type(data))
+	get_message_size = str(data.get('message_size'))
+	# convert_string = str(get_message_size)
+	print(get_message_size)
+	print(type(get_message_size))
+	print(data)
+
 
 insert_quote_in_dict()
