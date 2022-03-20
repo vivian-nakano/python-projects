@@ -42,4 +42,17 @@ def organizar_crescente_desc():
 	for i in sort_orders:
 		print(i[0], i[1])
 
+def insert_quote_in_dict():
 
+	data = {
+		"topic": "kafka_topic",
+		"flush_size": 1000,
+		"schema": "backward",
+		"message_size": 200,
+		"branch": "develop"
+	}
+
+	var = data.get('message_size')
+	print(var)
+
+insert_quote_in_dict()
