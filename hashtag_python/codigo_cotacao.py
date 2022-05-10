@@ -5,4 +5,6 @@ def get_cotation():
 
     request_dic = request.json()
 
-    dolar_cotation =
+    dolar_cotation = request_dic['USDBRL']['bid']
+
+    print(dolar_cotation)
